@@ -103,31 +103,32 @@ tl2.to(
 );
 
 let mm = gsap.matchMedia();
-mm.add("(max-width: 672px)", () => {
+mm.add("(min-width: 267px) and (max-width: 671px)", () => {
   var tlMobile = gsap.timeline({
     scrollTrigger: {
       trigger: ".two",
       start: "0% 95%",
-      end: "70% 50%",
+      end: "50% 50%",
       scrub: true,
-      // markers: true,
+      markers: true,
     },
   });
 
   tlMobile.to(
     "#fanta",
     {
-      left: "8%",
-      top: "145%",
-      width: "30vw",
+        top: "122%",
+        left: "44%",
+       
+        width: "36.1071vw",
     },
     "orange"
   );
   tlMobile.to(
     "#orangecut",
     {
-      left: "25%",
-      top: "164%",
+      left: "65%",
+      top: "143%",
       width: "25vw",
     },
     "orange"
@@ -135,8 +136,8 @@ mm.add("(max-width: 672px)", () => {
   tlMobile.to(
     "#orange",
     {
-      right: "1.0069%",
-      top: "170%",
+      right: "0%",
+      top: "180%",
       width: "30%",
     },
     "orange"
@@ -144,7 +145,7 @@ mm.add("(max-width: 672px)", () => {
   tlMobile.to(
     "#leaf1",
     {
-      width: "90%",
+      width: "35%",
       top: "125%",
     },
     "orange"
@@ -161,16 +162,16 @@ mm.add("(max-width: 672px)", () => {
   var tl2Mobile = gsap.timeline({
     scrollTrigger: {
       trigger: ".three",
-      start: "0% 95%",
+      start: "-20% 95%",
       end: "70% 50%",
       scrub: true,
-      // markers: true,
+    //   markers: true,
     },
   });
   tl2Mobile.to(
     "#fanta",
     {
-      left: "42%",
+      left: "40%",
       top: "230%",
       width: "21vw",
     },
@@ -206,106 +207,106 @@ mm.add("(max-width: 672px)", () => {
   );
 });
 
-mm.add("(max-width: 990px)", () => {
-    var tlMobile = gsap.timeline({
-      scrollTrigger: {
-        trigger: ".two",
-        start: "0% 95%",
-        end: "70% 50%",
-        scrub: true,
-        // markers: true,
-      },
-    });
+// mm.add("(max-width: 990px)", () => {
+//     var tlMobile = gsap.timeline({
+//       scrollTrigger: {
+//         trigger: ".two",
+//         start: "0% 95%",
+//         end: "70% 50%",
+//         scrub: true,
+//         // markers: true,
+//       },
+//     });
   
-    tlMobile.to(
-      "#fanta",
-      {
-        left: "8%",
-        top: "132%",
-        width: "30vw",
-      },
-      "orange"
-    );
-    tlMobile.to(
-      "#orangecut",
-      {
-        left: "25%",
-        top: "164%",
-        width: "25vw",
-      },
-      "orange"
-    );
-    tlMobile.to(
-      "#orange",
-      {
-        right: "1.0069%",
-        top: "178%",
-        width: "25%",
-      },
-      "orange"
-    );
-    tlMobile.to(
-      "#leaf1",
-      {
-        width: "15%",
-        top: "128%",
-      },
-      "orange"
-    );
-    tlMobile.to(
-      "#leaf2",
-      {
-        left: "1%",
-        top: "126%",
-        width: "25%",
-      },
-      "orange"
-    );
-    var tl2Mobile = gsap.timeline({
-      scrollTrigger: {
-        trigger: ".three",
-        start: "0% 95%",
-        end: "70% 50%",
-        scrub: true,
-        // markers: true,
-      },
-    });
-    tl2Mobile.to(
-      "#fanta",
-      {
-        left: "44%",
-        top: "213%",
-        width: "15vw",
-      },
-      "banana"
-    );
-    tl2Mobile.to(
-      "#orangecut",
-      {
-        left: "38%",
-        top: "209%",
-        width: "26vw",
-      },
-      "banana"
-    );
-    tl2Mobile.to(
-      "#coco",
-      {
-        top: "-19%",
-        left: "-25%",
-        width: "35vw",
-      },
-      "banana"
-    );
-    tl2Mobile.to(
-      "#pepsifruit",
-      {
-        top: "-20%",
-        right:"-25%",
-        width: "35vw",
+//     tlMobile.to(
+//       "#fanta",
+//       {
+//         left: "8%",
+//         top: "132%",
+//         width: "30vw",
+//       },
+//       "orange"
+//     );
+//     tlMobile.to(
+//       "#orangecut",
+//       {
+//         left: "25%",
+//         top: "164%",
+//         width: "25vw",
+//       },
+//       "orange"
+//     );
+//     tlMobile.to(
+//       "#orange",
+//       {
+//         right: "1.0069%",
+//         top: "178%",
+//         width: "25%",
+//       },
+//       "orange"
+//     );
+//     tlMobile.to(
+//       "#leaf1",
+//       {
+//         width: "15%",
+//         top: "128%",
+//       },
+//       "orange"
+//     );
+//     tlMobile.to(
+//       "#leaf2",
+//       {
+//         left: "1%",
+//         top: "126%",
+//         width: "25%",
+//       },
+//       "orange"
+//     );
+//     var tl2Mobile = gsap.timeline({
+//       scrollTrigger: {
+//         trigger: ".three",
+//         start: "0% 95%",
+//         end: "70% 50%",
+//         scrub: true,
+//         // markers: true,
+//       },
+//     });
+//     tl2Mobile.to(
+//       "#fanta",
+//       {
+//         left: "44%",
+//         top: "213%",
+//         width: "15vw",
+//       },
+//       "banana"
+//     );
+//     tl2Mobile.to(
+//       "#orangecut",
+//       {
+//         left: "38%",
+//         top: "209%",
+//         width: "26vw",
+//       },
+//       "banana"
+//     );
+//     tl2Mobile.to(
+//       "#coco",
+//       {
+//         top: "-19%",
+//         left: "-25%",
+//         width: "35vw",
+//       },
+//       "banana"
+//     );
+//     tl2Mobile.to(
+//       "#pepsifruit",
+//       {
+//         top: "-20%",
+//         right:"-25%",
+//         width: "35vw",
       
-      },
-      "banana"
-    );
-  });
+//       },
+//       "banana"
+//     );
+//   });
   

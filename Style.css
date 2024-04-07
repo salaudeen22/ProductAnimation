@@ -1,349 +1,343 @@
-*
-{
-    padding: 0;
-    margin: 0;
-box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-html,body{
-    height: 100%;
-    width: 100%;
+html,
+body {
+  height: 100%;
+  width: 100%;
 }
-#main
-{
-    height: 100vh;
-    width: 100%;
-    background-color: orangered;
+#main {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  /* background-color: orangered; */
 }
-nav
-{
-    width: 100%;
-    position: fixed;
-    display: flex;
-    height: 10vh;
-    padding: 0vw 10vw;
-    /* background-color: aliceblue; */
-    justify-content: space-between;
-    align-items: center;
-    z-index: 19;
+nav {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  height: 10vh;
+  padding: 0vw 10%;
+  /* background-color: rgb(36, 122, 197); */
+  justify-content: space-between;
+  align-items: center;
+  z-index: 19;
 }
 
-nav a,i
-{
-    text-decoration: none;
-    color: inherit;
-    font-size: 1.2vmax;
-    color: antiquewhite;
+nav a,
+i {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.2vmax;
+  color: antiquewhite;
 
-    font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
-nav i
-{
-    display: none;
+nav i {
+  display: none;
 }
-.center-nav
-{
-    display: flex;
-    gap: 3vw;
+.center-nav {
+  display: flex;
+  gap: 3vw;
 }
-nav i
-{
-    font-size: 1.5vw;
+nav i {
+  font-size: 1.5vw;
 }
 /* one */
 
-.one
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-    background: linear-gradient(120deg,rgb(255, 166, 0),rgb(255, 85, 0));
+.one {
+
+   
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+
+ overflow: hidden;
+
+  background: linear-gradient(120deg, rgb(255, 166, 0), rgb(255, 85, 0));
 }
-.one h1
-{
-    font-size: 25vw;
-    font-family: 'Times New Roman', Times, serif ;
-    color: #fff;
+.one h1 {
+  font-size: 25vw;
+  font-family: "Times New Roman", Times, serif;
+  color: #fff;
 }
-#fanta
-{
-    width: 20%;
-    position: absolute;
-    z-index: 2;
+#fanta {
+  width: 20vw;
+  position: absolute;
+  z-index: 2;
 }
-#orangecut
-{
-    width: 16%;
-    top: 10%;
-    left: 32%;
-    position: absolute;
-    z-index: 1;
+#orangecut {
+  width: 16%;
+  top: 10%;
+  left: 32%;
+  position: absolute;
+  z-index: 1;
 }
-#orange
-{
-   width: 22%;
-   position: absolute;
-   z-index: 3;
-   top: 60%;
-   right: 30%;
+#orange {
+  width: 22%;
+  position: absolute;
+  z-index: 3;
+  top: 60%;
+  right: 30%;
 }
 
-#leaf
-{
-    width: 25%;
-    top: 15%;
-    right: 0;
-    
-    position: absolute;
+#leaf {
+  width: 25%;
+  top: 15%;
+  right: 0;
+
+  position: absolute;
 }
-#leaf1
-{
-    top: 20%;
-    left: 5%;
-    transform: rotate(120deg);
-    width: 15%;
-    position: absolute;
+#leaf1 {
+  top: 20%;
+  left: 5%;
+  transform: rotate(120deg);
+  width: 15%;
+  position: absolute;
 }
-#leaf2
-{
-    top: 60%;
-    left: 80%;
-    transform: rotate(360deg);
-    width: 15%;
-    position: absolute;
+#leaf2 {
+  top: 60%;
+  left: 80%;
+  transform: rotate(360deg);
+  width: 15%;
+  position: absolute;
 }
 /* two */
-.two
-{
-    display: flex;
-    background-color: orange;
+.two {
+  display: flex;
 
-    height: 100vh;
-    width: 100%;
+justify-content: space-evenly;
+  background-color: orange;
+  overflow: hidden;
 
+  height: 100vh;
+  width: 100%;
 }
-.lft-two,.rght-two
-{
-   
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    height: 100%;
+.lft-two,
+.rght-two {
+
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+ 
 }
-.lft-two svg
-{
-    margin-top: 50vh;
-    width: 120%;
-   transform: rotateX(50deg);
+.lft-two svg {
+
+  width: 120%;
+  transform: rotateX(50deg);
 }
-.rght-two
-{
-    display: flex;
-    flex-direction: column;
-    gap: 5vh;
+.rght-two {
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
 }
-.rght-two h1
-{
-    font-size: 6vh;
-    color: white;
+.rght-two h1 {
+  font-size: 6vh;
+  color: white;
 }
-.rght-two p
-{
-    font-size: 1.5vh;
-    width: 70%;
-    color: #fff;
+.rght-two p {
+  font-size: 1.5vh;
+  width: 70%;
+  color: #fff;
 }
 /* three */
 
-
-.three
-{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 5vw;
-    width: 100%;
-    height: 100vh;
-    background-color: #896e56;
+.three {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  gap: 5vw;
+  width: 100%;
+  height: 100vh;
+  background-color: #896e56;
 }
-.card
-{
-    display: flex;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 25vw;
-    gap: 3vh;
-    height: 70vh;
-    margin-top: 10vh;
-    border-radius: 20px;
-    background-color: #fff;
+.card {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 25vw;
+  gap: 3vh;
+  height: 70vh;
+  margin-top: 10vh;
+  border-radius: 20px;
+  background-color: #fff;
 }
-.card:nth-child(1)
-{
-  background: linear-gradient(120deg,white,red);
+.card:nth-child(1) {
+  background: linear-gradient(120deg, white, red);
 }
-.card:nth-child(2)
-{
-  background: linear-gradient(120deg,white,rgb(250, 177, 94));
+.card:nth-child(2) {
+  background: linear-gradient(120deg, white, rgb(250, 177, 94));
 }
-.card:nth-child(3)
-{
-  background: linear-gradient(120deg,white,rgb(94, 188, 250));
+.card:nth-child(3) {
+  background: linear-gradient(120deg, white, rgb(94, 188, 250));
 }
-.card h1
-{
-    margin-top: 40vh;
-    font-size: 3vw;
+.card h1 {
+  margin-top: 40vh;
+  font-size: 3vw;
 }
-.card button
-{
-    font-size: 1vw;
-    border: none;
-    color: #fff;
-    background-color: orange;
-    border-radius: 50px;
-    padding: 1vw 3vw;
+.card button {
+  font-size: 1vw;
+  border: none;
+  color: #fff;
+  background-color: orange;
+  border-radius: 50px;
+  padding: 1vw 3vw;
 }
 
 #cocola {
-    width: 60%;
-    top: -12%;
-    position: absolute;
+  width: 60%;
+  top: -12%;
+  position: absolute;
 }
-#pepsi
-{
-    width: 110%;
-    top: -25%;
-    position: absolute;
+#pepsi {
+  width: 110%;
+  top: -25%;
+  position: absolute;
 }
-#coco
-{
-    top: -35%;
-    position: absolute;
-    width: 35vw;
+#coco {
+  top: -35%;
+  position: absolute;
+  width: 35vw;
 }
-#pepsifruit
-{
-    top: -30%;
-    width: 30vw;
-    position: absolute;
+#pepsifruit {
+  top: -30%;
+  width: 30vw;
+  position: absolute;
 }
-@media(max-width:375px)
-{
-    
-}
-@media(max-width:672px)
-{
-    nav
-    {
-        padding: 0 6vw;
-    }
-    nav #logo
-    {
-        display: initial;
-        font-size: 3vw;
-    }
-    nav a
-    {
-        display: none;
-    }
-    nav i
-    {
-        display: initial;
-        font-size: 3vw;
-    }
-    /* part-1 */
-    #orangecut
-    {
-        top: 39%;
-        left: 31%;
-        width: 24%;
-    }
-    #leaf {
-        width: 55%;
-        top: 17%;
-    }
-    #orange
-    {
-        top: 54%;
-        right: 26%;
-        width: 26%;
-    }
-    #leaf1 {
-        top: 43%;
-        width: 19%;
-    }
-    #leaf2 {
-        top: 53%;
-        left: 84%;
-    }
-    .rght-two h1 {
-        font-size: 6vw;
-        
-    }
-    .rght-two p {
-        font-size: 1.5vw;
-       
-    }
-    .lft-two svg {
-       
-        width: 103%;
-        
-    }
-    .card {
-       
-        width: 32vw;
-        gap: 3vh;
-        height: 48vh;
-       
-    }
-    #cocola {
-        width: 71%;
-        top: -14%;
-        position: absolute;
-    }
-    #pepsi {
-        width: 127%;
-        top: -22%;
-        position: absolute;
-    }
 
-
+@media (min-width: 267px) and (max-width: 671px) {
+  nav {
+    padding: 0 6vw;
+  }
+  nav #logo {
+    display: initial;
+    font-size: 3vw;
+  }
+  nav a {
+    display: none;
+  }
+  nav i {
+    display: initial;
+    font-size: 3vw;
+  }
+  #leaf1 {
+    top: 41%;
+    width: 19%;
 }
-@media(max-width:990px)
-{
-    #orangecut {
-        width: 27%;
-        top: 25%;
-        left: 36%;
-       
-    }
-    #fanta
-    {
-        width: 20vw;
-    }
-    #orange {
-        width: 24%;
-      
-        top: 59%;
-        right: 27%;
-    }
-    #leaf {
-        width: 32%;
-        top: 15%;
-        right: 0;
-        position: absolute;
-    }
-    #leaf1 {
-        top: 36%;
-    }
-    #leaf2 {
-        top: 54%;
-    }
+  
+  /* part-1 */
+  #orangecut {
+    top: 38%;
+    left: 37%;
+    width: 26%;
+  }
+  #leaf {
+    width: 55%;
+    top: 17%;
+  }
+  #orange {
+    top: 52%;
+    right: 25%;
+    width: 26%;
+  }
+  #leaf1 {
+    top: 40%;
+    width: 19%;
+  }
+  #leaf2 {
+    top: 52%;
+    left: 84%;
+  }
+  .rght-two h1 {
+    font-size: 6vw;
+  }
+  .rght-two p {
+    font-size: 1.5vw;
+  }
+  .two {
+    display: flex;
+    flex-direction: column;
+  }
+  .lft-two {
+    position: relative;
+    height: 50vh;
+  }
+  .rght-two {
+    height: 50vh;
+  }
+  .rght-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3vh;
+  }
+  .rght-two h1 {
+    font-size: 6vw;
+    color: white;
+  }
+  .rght-two p {
+    font-size: 2.2vw;
+    width: 70%;
+    color: #fff;
+  }
+  .lft-two svg {
+    width: 100%;
+    position: absolute;
+    right: -15%;
+    top: 50%;
+  }
+
+  .card {
+    width: 32vw;
+    gap: 3vh;
+    height: 48vh;
+  }
+  #cocola {
+    width: 71%;
+    top: -14%;
+    position: absolute;
+  }
+  #pepsi {
+    width: 127%;
+    top: -22%;
+    position: absolute;
+  }
+}
+@media (min-width: 673px) and (max-width: 990px) {
+  #orangecut {
+    width: 27%;
+    top: 25%;
+    left: 36%;
+  }
+  #fanta {
+    width: 20vw;
+  }
+  #orange {
+    width: 24%;
+
+    top: 59%;
+    right: 27%;
+  }
+  #leaf {
+    width: 32%;
+    top: 15%;
+    right: 0;
+    position: absolute;
+  }
+  #leaf1 {
+    top: 36%;
+  }
+  #leaf2 {
+    top: 54%;
+  }
 }
