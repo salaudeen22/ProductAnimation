@@ -214,7 +214,7 @@ justify-content: space-evenly;
   position: absolute;
 }
 
-@media (min-width: 267px) and (max-width: 671px) {
+@media (min-width: 267px) and (max-width: 450px) {
   nav {
     padding: 0 6vw;
   }
@@ -291,7 +291,7 @@ justify-content: space-evenly;
     color: #fff;
   }
   .lft-two svg {
-    width: 100%;
+    width: 30%;
     position: absolute;
     right: -15%;
     top: 50%;
@@ -313,14 +313,113 @@ justify-content: space-evenly;
     position: absolute;
   }
 }
+@media (min-width: 451px) and (max-width: 650px) {
+  nav {
+    padding: 0 6vw;
+  }
+  nav #logo {
+    display: initial;
+    font-size: 3vw;
+  }
+  nav a {
+    display: none;
+  }
+  nav i {
+    display: initial;
+    font-size: 3vw;
+  }
+  #leaf1 {
+    top: 41%;
+    width: 19%;
+}
+  
+  /* part-1 */
+  #orangecut {
+    top: 33%;
+    left: 37%;
+    width: 26%;
+  }
+  #leaf {
+    width: 55%;
+    top: 17%;
+  }
+  #orange {
+    top: 52%;
+    right: 25%;
+    width: 26%;
+  }
+  #leaf1 {
+    top: 40%;
+    width: 19%;
+  }
+  #leaf2 {
+    top: 52%;
+    left: 84%;
+  }
+  .rght-two h1 {
+    font-size: 6vw;
+  }
+  .rght-two p {
+    font-size: 1.5vw;
+  }
+  .two {
+    display: flex;
+    flex-direction: column;
+  }
+  .lft-two {
+    position: relative;
+    height: 50vh;
+  }
+  .rght-two {
+    height: 50vh;
+  }
+  .rght-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3vh;
+  }
+  .rght-two h1 {
+    font-size: 6vw;
+    color: white;
+  }
+  .rght-two p {
+    font-size: 2.2vw;
+    width: 70%;
+    color: #fff;
+  }
+  .lft-two svg {
+    width: 50%;
+    position: absolute;
+    right: 12%;
+    top: 49%;
+}
+
+  .card {
+    width: 32vw;
+    gap: 3vh;
+    height: 48vh;
+  }
+  #cocola {
+    width: 71%;
+    top: -14%;
+    position: absolute;
+  }
+  #pepsi {
+    width: 127%;
+    top: -22%;
+    position: absolute;
+  }
+}
 @media (min-width: 673px) and (max-width: 990px) {
   #orangecut {
     width: 27%;
-    top: 25%;
+    top: 13%;
     left: 36%;
   }
   #fanta {
-    width: 20vw;
+    width: 20%;
   }
   #orange {
     width: 24%;
@@ -341,3 +440,7 @@ justify-content: space-evenly;
     top: 54%;
   }
 }
+@media  (max-width: 991px) {
+ 
+}
+

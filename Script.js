@@ -103,14 +103,14 @@ tl2.to(
 );
 
 let mm = gsap.matchMedia();
-mm.add("(min-width: 267px) and (max-width: 671px)", () => {
+mm.add("(min-width: 267px) and (max-width: 450px)", () => {
   var tlMobile = gsap.timeline({
     scrollTrigger: {
       trigger: ".two",
       start: "0% 95%",
       end: "50% 50%",
       scrub: true,
-      markers: true,
+    //   markers: true,
     },
   });
 
@@ -206,6 +206,110 @@ mm.add("(min-width: 267px) and (max-width: 671px)", () => {
     "banana"
   );
 });
+mm.add("(min-width: 451px) and (max-width: 750px)", () => {
+    var tlMobile3 = gsap.timeline({
+      scrollTrigger: {
+        trigger: ".two",
+        start: "0% 95%",
+        end: "50% 50%",
+        scrub: true,
+        // markers: true,
+      },
+    });
+  
+    tlMobile3.to(
+      "#fanta",
+      {
+          top: "85%",
+          left: "34%",
+         
+          width: "30vw",
+      },
+      "orange"
+    );
+    tlMobile3.to(
+      "#orangecut",
+      {
+        left: "45%",
+        top: "90%",
+        width: "25vw",
+      },
+      "orange"
+    );
+    tlMobile3.to(
+      "#orange",
+      {
+        right: "0%",
+        top: "170%",
+        width: "20%",
+      },
+      "orange"
+    );
+    tlMobile3.to(
+      "#leaf1",
+      {
+        width: "35%",
+        top: "125%",
+        left:"45%"
+      },
+      "orange"
+    );
+    tlMobile3.to(
+      "#leaf2",
+      {
+        left: "1%",
+        top: "125%",
+        width: "22%",
+      },
+      "orange"
+    );
+    var tl3Mobile = gsap.timeline({
+      scrollTrigger: {
+        trigger: ".three",
+        start: "-20% 95%",
+        end: "70% 50%",
+        scrub: true,
+        markers: true,
+      },
+    });
+    tl3Mobile.to(
+      "#fanta",
+      {
+        left: "40%",
+        top: "230%",
+        width: "21vw",
+      },
+      "banana"
+    );
+    tl3Mobile.to(
+      "#orangecut",
+      {
+        left: "33%",
+        top: "225%",
+        width: "35vw",
+      },
+      "banana"
+    );
+    tl3Mobile.to(
+      "#coco",
+      {
+        top: "-19%",
+        left: "-27%",
+        width: "42vw",
+      },
+      "banana"
+    );
+    tl3Mobile.to(
+      "#pepsifruit",
+      {
+        top: "-20%",
+        right:"-22%",
+        width: "42vw",
+      
+      },
+      "banana"
+    );
+  });
 
 // mm.add("(max-width: 990px)", () => {
 //     var tlMobile = gsap.timeline({
